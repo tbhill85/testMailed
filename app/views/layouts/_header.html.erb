@@ -1,10 +1,14 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
-    <%= link_to "sample app", root_path, id: "logo" %>
+    <%= link_to image_tag("mail_webtreatset.png", alt: "Mailed"),
+                "https://afternoon-brushlands-7826.herokuapp.com/", id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Home",    root_path %></li>
+        <li><%= link_to "Products", products_path %></li>
+        <li><%= link_to "Pricing", pricing_path %></li>
+        <li><%= link_to "About Us", about_path %></li>
         <li><%= link_to "Help",    help_path %></li>
+        <li><%= link_to "Events", events_path %></li>
         <li><%= link_to "Log in", '#' %></li>
       </ul>
     </nav>
