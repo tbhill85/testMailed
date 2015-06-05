@@ -11,5 +11,17 @@ class StaticPagesController < ApplicationController
 
   def contact
   end
-  
+
+  def careers
+  end
+
+  def events
+  end
+
+  def pricing
+  end
+
+  def products
+  end
+
 end
